@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+
+<script>
+
+    let consumirApi = async() =>{
+        let response = await fetch("https://rickandmortyapi.com/api/location")
+        let data = await response.json()
+        let resultados = data.results
+        
+        console.log(resultados);
+        let lugaresTipoPlaneta = resultados.filter(lugar => lugar.type === "Planet")
+        console.log(lugaresTipoPlaneta);
+        let mapeo = resultados.map(lugar => lugar.name)
+        console.log(mapeo);
+
+    }
+
+    consumirApi()
+
+</script>

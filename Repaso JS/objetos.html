@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body></body>
+</html>
+
+<script>
+    let persona = {
+        nombre: "Lucas",
+        apellido: "Cagliari",
+        edad: 24,
+        aptitudes: {
+            estudio: "ingenieria",
+            profesion: "desarrollador de hardware",
+            nivelDeIngles: "avanzado",
+        },
+        pais: "argentina",
+    };
+
+    // acceder a objeto mediante destructuring objects
+    let { estudio } = persona.aptitudes;
+
+    console.log(`el alumno ${persona.nombre} posee un titulo de ${estudio}`);
+
+    console.log(persona.aptitudes.nivelDeIngles);
+
+    
+        
+</script>

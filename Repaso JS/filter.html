@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <p>Api de Rick and Morty: https://rickandmortyapi.com/documentation</p>
+        <div id="especies"></div>
+        <div id="contenedorImagenes"></div>
+    </body>
+</html>
+
+
+<script>
+    let especie = prompt("Ingresá la especie")
+
+    let pedirApi = async () => {
+        try {
+            let response = await fetch("https://rickandmortyapi.com/api/character");
+            let data = await response.json();
+            console.log(data.results);
+
+            data.results.forEach(element => {
+                mostrarEspecies(element.species)
+
+            });
+
+            let nombresCompletos = data.results.filter((nombre) => nombre.species === especie);
+            nombresCompletos.forEach((element) => {
+                crearObjetos(element.image)
+            });
+        } catch (error) {
+            console.log(error);
+        }
+    };
+
+    let contenedor = document.getElementById("contenedorImagenes")
+    let contenedorEspecies = document.getElementById("especies")
+
+
+    let crearObjetos = (url) => {
+        let nuevaImg = document.createElement("img");
+        console.log(nuevaImg)
+        nuevaImg.src = url
+        contenedor.appendChild(nuevaImg)
+    };
+
+    let mostrarEspecies = (especie) =>{
+        let nuevoP = document.createElement("p")
+        nuevoP.innerText = especie
+        contenedorEspecies.appendChild(nuevoP)
+    }
+
+    pedirApi();
+</script>

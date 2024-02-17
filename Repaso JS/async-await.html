@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<script>    
+
+let pedirApi = async() =>{
+        try {
+            let respuesta = await fetch("https://pokeapi.co/api/v2/pokemon")
+            let data = await respuesta.json()
+            console.log(data.results[1]);
+
+        } catch (error) {
+            console.log(error);
+        }
+    }
+
+    pedirApi()
+
+
+
+let consumirApi = async() =>{
+    try {
+        let response = await fetch("https://api.artic.edu/api/v1/artworks")
+        let data = await response.json()
+        console.log(data);
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+consumirApi()
+
+</script>

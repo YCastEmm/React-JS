@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+</body>
+</html>
+
+<script>
+    /* 
+        En el contexto de las promesas en JavaScript, el argumento response en la función que pasa al método .then() es proporcionado automáticamente por la resolución de la promesa anterior en la cadena de promesas.
+
+        Cuando usas fetch para realizar una solicitud HTTP, fetch devuelve una promesa que se resuelve con un objeto Response cuando la solicitud se completa, ya sea con éxito o con error. Cuando la promesa se resuelve, el valor de la resolución (en este caso, el objeto Response) se pasa automáticamente como argumento a la función que se proporciona al método .then().
+
+        Por lo tanto, en el caso de .then(response => response.json()), cuando la promesa devuelta por fetch se resuelve con éxito, el objeto Response se pasa como argumento a la función flecha. Luego, esa función flecha llama al método .json() en el objeto Response, lo que devuelve otra promesa que se resuelve con el cuerpo del Response analizado como JSON.
+    */
+
+    fetch("https://pokeapi.co/api/v2/pokemon")
+        .then(function (response) {
+            return response.json();
+        })
+        .then((data) =>  data.results
+        )
+        .then((t) => {
+            t.forEach(element => {
+                console.log(element.name);    
+            });            
+        })
+
+        .catch(error => {
+        // Manejar errores
+        console.error('Se produjo un error:', error);
+    });
+
+   
+
+</script>

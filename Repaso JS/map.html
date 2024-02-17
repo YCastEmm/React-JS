@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+</body>
+</html>
+
+<script>
+    let consumirApi = async() =>{
+        try {
+            let respuesta = await fetch("https://pokeapi.co/api/v2/pokemon")
+            let data = await respuesta.json()
+            let dataResults = data.results
+            console.log(dataResults);
+
+            let arrayName = []
+
+            dataResults.forEach(element => {
+                arrayName.push(element.name)
+            });
+            console.log(arrayName);
+
+            
+        } catch (error) {
+            console.log(error);
+        }
+    }
+
+    consumirApi()
+
+
+    /* El método map permite recorrer un array y modificarlo o obtener datos */
+    
+    let consumirApi2 = async() =>{
+        try {
+            let respuesta = await fetch("https://pokeapi.co/api/v2/pokemon")
+            let data = await respuesta.json()
+
+            
+            let arrayNombres = data.results.map(poke => poke.name + 1)
+            console.log(arrayNombres);
+        
+
+            
+        } catch (error) {
+            console.log(error);
+        }
+    }
+
+    consumirApi2()
+
+</script>
