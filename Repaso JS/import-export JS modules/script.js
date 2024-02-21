@@ -1,5 +1,5 @@
 /* Con llaves permite seleccionar distintos elementos que se estén exportando en el módulo*/
-import {suma}  from "./modulo.js";
+import {suma, dividir}  from "./modulo.js";
 
 import resta from "./modulo2.js";
 
