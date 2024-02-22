@@ -4,8 +4,19 @@
 
 .div{
     background-color: wheat;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
 }
 
-.text-center{
+.texto-centrado{
     text-align: center;
+}
+
+.seccion{
+    background-color: rgb(216, 216, 216);
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
 }
