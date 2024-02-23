@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import {Seccion, FragmentImportado} from "./App.jsx"
 import {UnComponente, Interpolacion} from './Interpolacion.jsx'
-import { OperadorTernario } from "./OperadorTernario.jsx";
+import { OperadorTernario, OperadorTernarioAnd } from "./OperadorTernario.jsx";
+import { Mensaje } from "./Mensaje.jsx";
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -14,6 +15,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Interpolacion />
     <UnComponente />
     <OperadorTernario />
+    <OperadorTernarioAnd />
+    <Mensaje />
   </React.StrictMode>,
 
 )

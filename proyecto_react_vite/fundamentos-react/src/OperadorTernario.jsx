@@ -10,6 +10,42 @@
 */
 
 
+/* Vite permite importar un recurso (en este caso una imagen) para hacer más facil el tema de traerse la ruta*/ 
+import imagenImportadaPath from "./img/img_1.jpg"
+import { Fragment } from "react"
+
+let userLog = "¿El usuario está logueado?"
+let claseSection = "seccion"
+let user = true
+let imagenPath = "/src/img/img_1.jpg"
+
+let Ok = () =>{
+    return <h4>El user está logueado</h4>
+}
+
+let Error = () =>{
+    return <h4>El user <b>no</b> está logueado</h4>
+}
+
+let Imagen = () =>{
+    return <img src={imagenImportadaPath} alt="" />
+}
+
+export let OperadorTernario = () =>{
+    return <Fragment>
+                <section className={claseSection}>
+                    <h2>{userLog}</h2>
+                    
+                    <img src={imagenPath} alt="" />
+
+                    { user ? <Ok /> : <Error />}
+
+                </section>
+
+            </Fragment>
+}
+
+
 /* 
     ¿Qué pasa si omitimos 'else'?
 
@@ -21,31 +57,17 @@
     {
         user && <UserMessage />;
     }
+    Si la condición es true, el elemento justo después de && aparecerá en el resultado. Si es false, React lo ignorará.
 */
 
 
-import { Fragment } from "react"
-
-let userLog = "¿El usuario está logueado?"
-let claseSection = "seccion"
-
-let user = true
-
-
-let Ok = () =>{
-    return <h4>El user está logueado</h4>
-}
-
-let Error = () =>{
-    return <h4>El user <b>no</b> está logueado</h4>
-}
-
-export let OperadorTernario = () =>{
+export let OperadorTernarioAnd = () =>{
     return <Fragment>
                 <section className={claseSection}>
                     <h2>{userLog}</h2>
                     
-                    { user ? <Ok /> : <Error />}
+                    
+                    { user && <Imagen /> }
 
                 </section>
 
