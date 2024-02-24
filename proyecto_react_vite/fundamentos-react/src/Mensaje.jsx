@@ -5,20 +5,23 @@
 
     Si mostrarMensaje es true, mostrar el mensaje "Este es un mensaje de bienvenida. ¡Hola mundo!".
     Si mostrarMensaje es false, mostrar el mensaje "El mensaje está oculto.".
- */ 
+ */
 
-    let mostrarMensaje = true
+let mostrarMensaje = true;
 
-    let ElementoH1 = ({children}) =>{
-        return <h1>{children}</h1>
-    }
+let ElementoH1 = ({ children }) => {
+    return <h3>{children}</h3>;
+};
 
-    let mensajeTrue = "Este es un mensaje de bienvenida"
-    let mensajeFalse = "El mensaje está oculto"
+let mensajeTrue = "Este es un mensaje de bienvenida";
+let mensajeFalse = "El mensaje está oculto";
 
-
-    export let Mensaje = () =>{
-        return <>
-                { mostrarMensaje ? <ElementoH1>{mensajeTrue}</ElementoH1> : <ElementoH1>{mensajeFalse}</ElementoH1>}
-                </>
-    }
+export let Mensaje = () => {
+    return (
+        <>
+            <div className="div">
+                {mostrarMensaje ? <ElementoH1>{mensajeTrue}</ElementoH1> : <ElementoH1>{mensajeFalse}</ElementoH1>}
+            </div>
+        </>
+    );
+};

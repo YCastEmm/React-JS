@@ -25,7 +25,7 @@ export let UnComponente = () =>{
 
 let claseTextoCentrado = "texto-centrado"
 let texto = "Lorem ipsum dolor sit amet consectetur adipisicing elit. In, vitae!"
-let imgPath = "https://picsum.photos/100/100"
+let imgPath = "https://picsum.photos/250/100"
 let altImg = "Imagen de ejemplo"
 
 export let Interpolacion = () =>{

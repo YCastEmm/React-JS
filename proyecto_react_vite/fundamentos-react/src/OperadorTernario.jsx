@@ -10,8 +10,11 @@
 */
 
 
-/* Vite permite importar un recurso (en este caso una imagen) para hacer más facil el tema de traerse la ruta*/ 
+/* Vite permite importar un archivos estáticos (en este caso una imagen) para hacer más facil el tema de traerse la ruta*/ 
 import imagenImportadaPath from "./img/img_1.jpg"
+import imagenCheckPath from "./img/check.png";
+import imagenNoPath from "./img/no.png";
+
 import { Fragment } from "react"
 
 let userLog = "¿El usuario está logueado?"
@@ -36,9 +39,11 @@ export let OperadorTernario = () =>{
                 <section className={claseSection}>
                     <h2>{userLog}</h2>
                     
-                    <img src={imagenPath} alt="" />
 
                     { user ? <Ok /> : <Error />}
+
+                    <img src={imagenPath} alt="" />
+
 
                 </section>
 
@@ -60,14 +65,31 @@ export let OperadorTernario = () =>{
     Si la condición es true, el elemento justo después de && aparecerá en el resultado. Si es false, React lo ignorará.
 */
 
+let ImagenCheck = ({size}) =>{
+    return <img src={imagenCheckPath} alt="" style={{width: size}}/>
+}
+
+let ImagenNo = (prop) =>{
+    return <img src={imagenNoPath} alt={prop.size}  style={{width: `${prop.size}`}} />
+}
+
+let TextoOk = (prop) =>{
+    return <h3>{prop.text}</h3>
+}
+
 
 export let OperadorTernarioAnd = () =>{
     return <Fragment>
                 <section className={claseSection}>
                     <h2>{userLog}</h2>
                     
-                    
-                    { user && <Imagen /> }
+                    {/* Pregunto si user es true y devuelvo una u otra imagen */}
+                    { user ? <ImagenCheck  size="50px" /> : <ImagenNo size="50px"></ImagenNo>  }
+
+                    {/* Pregunto si user es true sin else, solo me importa el valor true */}
+                    { user && <TextoOk text="El usuario se encuentra en línea"></TextoOk>  }
+
+
 
                 </section>
 

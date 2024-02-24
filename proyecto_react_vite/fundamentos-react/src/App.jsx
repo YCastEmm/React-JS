@@ -19,7 +19,7 @@ let App = () =>{
     return  <div className="div">
                 <h1 className="texto-centrado">Hola soy React.JS</h1>
                 <p>tres elementos de react dentro de un div</p>
-                <img src="https://picsum.photos/100/100" alt="" />
+                <img src="https://picsum.photos/250/100" alt="" />
             </div>
 }
 
