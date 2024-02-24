@@ -4,6 +4,8 @@ import App from './App.jsx'
 import {Seccion, FragmentImportado} from "./App.jsx"
 import {UnComponente, Interpolacion} from './Interpolacion.jsx'
 import { OperadorTernario, OperadorTernarioAnd } from "./OperadorTernario.jsx";
+import { OperadorTernarioConProp } from "./OperadorTernarioConProp.jsx";
+
 import { ArrayDeFrutas } from "./MetodoMap.jsx";
 import { ElementoProp } from "./Props.jsx";
 import { ElementoProp2 } from "./PropType.jsx";
@@ -23,6 +25,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <ArrayDeFrutas />
     <ElementoProp />
     <ElementoProp2 />
+    <OperadorTernarioConProp />
+
 
   </React.StrictMode>,
 

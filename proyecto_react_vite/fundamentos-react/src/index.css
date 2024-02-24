@@ -1,40 +1,50 @@
-.imagen{
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imagen {
     margin: auto;
 }
- 
-button{
+
+button {
     margin: 3px;
 }
 
-img{
+img {
     display: block;
     height: auto;
     max-width: 100%;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
-.div{
-    background-color: wheat;
+.div {
+    background-color: rgb(247, 231, 201);
     border-radius: 15px;
     text-align: center;
     padding: 10px;
     width: 300px;
     margin: 10px;
+    -webkit-box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 3px 7px 0px rgba(156, 156, 156, 0.75);
 }
 
-.texto-centrado{
+.texto-centrado {
     text-align: center;
 }
 
-.seccion{
-    background-color: rgb(216, 216, 216);
+.seccion {
+    background-color: rgb(229, 230, 224);
     border-radius: 15px;
     text-align: center;
     padding: 10px;
     margin: 10px;
-    width: 300px;    
+    width: 300px;
+    -webkit-box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 3px 7px 0px rgba(156, 156, 156, 0.75);
 }
 
-.seccion ul{
+.seccion ul {
     text-align: left;
 }

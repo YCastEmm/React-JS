@@ -28,8 +28,8 @@ let TagConPropDestructurado = ({texto, programa, version}) =>{
 
 ButtonConProp.propTypes = {
     texto: PropTypes.string.isRequired,
-    programa: PropTypes.string.isRequired,
-    version: PropTypes.number.isRequired
+    programa: PropTypes.string,
+    version: PropTypes.number
 }
 
 
