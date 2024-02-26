@@ -1,51 +1,54 @@
-/* El código JSX parece HTML pero no lo es, es en realidad JavaScript + XML*/
-/* Los nombres de los componentes deben comenzar con mayuscula */
-/* Los elementos debes estar contenido por otro elemento, no pueden estar flotando */
+import { PropTypes } from "prop-types";
+import { version } from "react";
 
-/* 
-    Componentes 
-    
-    Las aplicaciones React están hechas de componentes .
-    Un componente es una parte de la IU (interfaz de usuario) que tiene su propia lógica y apariencia.
-    Un componente puede ser tan pequeño como un botón o tan grande como una página entera.
-    Los componentes de React son funciones de JavaScript: 
-*/
+import UserLog from "./components/UserLog";
+import BotonConsoleClick from "./components/MyButton";
+import { ArrayConMap } from "./components/MapArray/ArrayMetodoMap";
+import { TagConPropDestructurado } from "./components/TagPropType";
+import ButtonState from "./components/ButtonState";
 
-import { Fragment } from "react"
+let frutas = ["🍅", "🍌", "🍍", "🍇"];
+let fastFood = ["🌭", "🍟", "🍕", "🥓"];
+let ReactVersion = version
 
-/* Conteniendo los elementos con un div*/
-/* Este componente se exporta por defecto abajo */
-let App = () =>{
-    return  <div className="div">
-                <h1 className="texto-centrado">Hola soy React.JS</h1>
-                <p>tres elementos de react dentro de un div</p>
-                <img src="https://picsum.photos/250/100" alt="" />
+let claseDiv = "div";
+let claseSection = "seccion";
+let classTitulo = "texto-centrado";
+
+let titulo = "Componente App.jsx de React JS";
+
+TagConPropDestructurado.propTypes = {
+    texto: PropTypes.string.isRequired,
+    programa: PropTypes.string,
+    version: PropTypes.string,
+};
+
+ArrayConMap.propTypes = {
+    array: PropTypes.array.isRequired,
+    texto: PropTypes.string.isRequired,
+};
+
+let App = () => {
+    return (
+        <>
+            <div className={claseDiv}>
+                <h1 className={classTitulo}>{titulo}</h1>
+                <UserLog></UserLog>
+                <section className={claseSection}>
+                    <BotonConsoleClick texto="Boton 1"></BotonConsoleClick>
+                    <BotonConsoleClick texto="Boton 2"></BotonConsoleClick>
+                    <BotonConsoleClick texto="Boton 3"></BotonConsoleClick>
+
+                    {/* Tanto array como texto se pasan dentro de un mismo parámetro de prop, o sea, dentro de prop.array y dentro de prop.texto */}
+                    <ArrayConMap array={frutas} texto="Listado de frutas" />
+                    <ArrayConMap array={fastFood} texto="Listado de fastfood" />
+
+                    <TagConPropDestructurado texto="Version de" programa="App de React JS" version={ReactVersion}></TagConPropDestructurado>
+                </section>
+                    <ButtonState></ButtonState>
             </div>
-}
+        </>
+    );
+};
 
-
-/* Usando un fragment para contener elementos (la forma más fácil) */
-/* En este componente se declara el export y luego en app.jsx se hace el import y se dice que componente se importa */
-export let Seccion = ()=>{
-    return  <>
-                <div>
-                    <p>Este fragment se hizo con &lt;&gt;&lt;/&gt;</p>
-                </div>
-                <img className="imagen" src="https://picsum.photos/100/100" alt="" />
-            </>
-}
-
-
-/* Usando un fragment para contener elementos*/
-/* En este componente se declara el export y luego en app.jsx se hace el import y se dice que componente se importa */
-export let FragmentImportado = ()=>{
-    return  <Fragment>
-                <div>
-                    <p>Este fragmente está hecho con &lt;React.Fragment&gt;&lt;/React.Fragment&gt; (previamente importado desde react</p>
-                </div>
-                <img className="imagen" src="https://picsum.photos/100/100" alt="" />
-            </Fragment>
-}
-
-// Esta es la exportación por default de este archivo
-export default App
+export default App;

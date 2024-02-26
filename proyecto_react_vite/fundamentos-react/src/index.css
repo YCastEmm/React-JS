@@ -18,15 +18,15 @@ img {
 }
 
 .div {
-    background-color: rgb(247, 231, 201);
+    background-color: rgb(214, 215, 245);
     border-radius: 15px;
     text-align: center;
     padding: 10px;
-    width: 300px;
+    min-width: 300px;
     margin: 10px;
-    -webkit-box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 3px 3px 7px 0px rgba(156, 156, 156, 0.75);
+    -webkit-box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 3px 0px rgba(139, 98, 235, 0.75);
 }
 
 .texto-centrado {
@@ -34,15 +34,15 @@ img {
 }
 
 .seccion {
-    background-color: rgb(229, 230, 224);
+    margin:  10px auto;
+    background-color: rgb(200, 233, 241);
     border-radius: 15px;
     text-align: center;
-    padding: 10px;
-    margin: 10px;
+    padding: 15px;
     width: 300px;
-    -webkit-box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 3px 3px 7px 0px rgba(156, 156, 156, 0.75);
+    -webkit-box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 3px 0px rgba(49, 165, 180, 0.75);
 }
 
 .seccion ul {
