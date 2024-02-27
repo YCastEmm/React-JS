@@ -17,7 +17,7 @@ let ButtonState = () =>{
         setCount(count + 1)
     }
 
-    return <button onClick={() => manejarClick()}>{`Button State ${count}`}</button>
+    return <button onClick={() => manejarClick()}>{`Sumar 1 : ${count}`}</button>
 
 }
 

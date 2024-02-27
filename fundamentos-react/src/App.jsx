@@ -6,6 +6,7 @@ import BotonConsoleClick from "./components/MyButton";
 import { ArrayConMap } from "./components/MapArray/ArrayMetodoMap";
 import { TagConPropDestructurado } from "./components/TagPropType";
 import ButtonState from "./components/ButtonState";
+import { Button} from "./components/TaskUseState"
 
 let frutas = ["🍅", "🍌", "🍍", "🍇"];
 let fastFood = ["🌭", "🍟", "🍕", "🥓"];
@@ -46,6 +47,9 @@ let App = () => {
                     <TagConPropDestructurado texto="Version de" programa="App de React JS" version={ReactVersion}></TagConPropDestructurado>
                 </section>
                     <ButtonState></ButtonState>
+                    <br />
+                    <br />
+                    <Button></Button>
             </div>
         </>
     );
