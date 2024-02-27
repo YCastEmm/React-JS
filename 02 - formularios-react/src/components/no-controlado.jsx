@@ -1,0 +1,1 @@
+export let NoControlado = () => { return "No controlado" }
