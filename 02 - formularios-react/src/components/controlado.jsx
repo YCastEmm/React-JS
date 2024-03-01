@@ -1,9 +1,13 @@
 import { useState } from "react";
 
 export let Controlado = () => {
-    let [title, setTitle] = useState("Valor inicial de titulo pasado por useState");
-    let [description, setDescription] = useState("Valor inicial de descripción pasado por useState");
-    let [estado, setEstado] = useState("Valor inicial de estado pasado por useState");
+
+    // let [title, setTitle] = useState("Valor inicial de titulo pasado por useState");
+    // let [description, setDescription] = useState("Valor inicial de descripción pasado por useState");
+    // let [estado, setEstado] = useState("Valor inicial de estado pasado por useState");
+
+    let [task, setTask ] = useState({ title: "", description: "", estado:""})
+
 
     let manejarClic = (e) => {
         // Se previene el comportamiento por default del formulario pasando el evento submit como argumento y ejecutando la función preventDefault()
@@ -20,22 +24,22 @@ export let Controlado = () => {
                 name="titulo"
                 
                 // El value permite pasar el valor del input
-                value={title}
-                onChange={(e) => setTitle(e.target.value)}
+                value={task.title}
+                onChange={(e) => setTask({...task, title: e.target.value} )}
             />
             <textarea
                 className="form-control mb-2"
                 placeholder="Ingresá la descripción"
                 name="descripcion"
-                value={description}
-                onChange={(e) => setDescription(e.target.value)}
+                value={task.description}
+                onChange={(e) => setTask({...task, description: e.target.value} )}
             />
             <select
                 name="state"
                 id=""
                 className="form-select mb-2"
-                onChange={(e) => setEstado(e.target.value)}
-                value={estado}
+                onChange={(e) => setTask({...task, estado: e.target.value} )}
+                value={task.estado}
             >
                 <option value="Pendiente">Pendiente</option>
                 <option value="Completado">Completado</option>
