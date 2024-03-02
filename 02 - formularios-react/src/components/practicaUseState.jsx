@@ -12,7 +12,7 @@ let ListaElementos = () =>{
         inicializarListado((listado.map((elemento) => elemento <= 1000 ? (elemento * elemento).toFixed(2) : (elemento - elemento / 2).toFixed(2))))
     }
 
-    return  <div>
+    return  <div className="border p-2 rounded m-2">
 
                 <ul className="mt-3">
                     <li>{listado[0]}</li>

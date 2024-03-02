@@ -2,6 +2,7 @@ import { NoControlado } from "./components/no-controlado";
 import { Controlado } from "./components/controlado";
 import { UseState } from "./components/useState";
 import ListaElementos from "./components/practicaUseState";
+import {UpdateYear} from "./components/updateYear";
 
 
 let App = () => {
@@ -11,8 +12,11 @@ let App = () => {
             <NoControlado></NoControlado> */}
             <h1 className="mt-4">Formulario Controlado</h1>
             <Controlado></Controlado>
-            <UseState></UseState>
-            <ListaElementos />
+            <div className="d-flex">
+                <UseState></UseState>
+                <ListaElementos />
+            </div>
+            <UpdateYear></UpdateYear>
         </div>
     );
 };
