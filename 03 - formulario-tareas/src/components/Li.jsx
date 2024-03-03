@@ -1,6 +1,6 @@
 
 
-export let ItemTarea = ({propTarea, propBorrarTarea}) =>{
+export let ItemTarea = ({propTarea, propBorrarTarea, propModificarTarea}) =>{
 
     let {id, title, description, state, priority} = propTarea
 
@@ -12,7 +12,7 @@ export let ItemTarea = ({propTarea, propBorrarTarea}) =>{
                         <p  className={state === true ? "text-decoration-line-through" : "" } >{description}</p>
                         
                         <div className="d-flex gap-2">
-                            <button onClick={() => console.log(propBorrarTarea)} className="btn btn-warning">Modificar</button>
+                            <button onClick={() => propModificarTarea(id)} className="btn btn-info">{state === true ? "Reabrir tarea" : "Completar" }</button>
                             <button onClick={() => propBorrarTarea(id)} className="btn btn-danger">Eliminar</button>
                         </div>
                     </div>

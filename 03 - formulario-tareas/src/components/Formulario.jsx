@@ -1,10 +1,8 @@
 import { useState } from "react";
 import Swal from "sweetalert2";
 
-
 // Levanto el valor de añadirTarea dentro de los props que se pasan a Formulario
-let Formulario = ({añadirTareaProp}) => {
-
+let Formulario = ({ añadirTareaProp }) => {
     let [task, setTask] = useState({ title: "", description: "", state: "Pendiente", priority: false });
 
     let manejarClic = (e) => {
@@ -12,7 +10,7 @@ let Formulario = ({añadirTareaProp}) => {
         let { title, description, state, priority, id } = task;
 
         // Si el titulo o descripción quedan vacíos, uso un alert de la biblioteca SweetAlert, para mostrar un mensaje.
-        // En JavaScript, si una cadena está vacía, se evalúa como falso en un contexto booleano. 
+        // En JavaScript, si una cadena está vacía, se evalúa como falso en un contexto booleano.
         if (!title.trim() || !description.trim()) {
             Swal.fire({
                 icon: "warning",
@@ -22,34 +20,34 @@ let Formulario = ({añadirTareaProp}) => {
             return;
         }
 
-        console.table({
-            Id: id,
-            Nombre: title,
-            Descripción: description,
-            Prioridad: priority,
-            Estado: state,
-        });
+        // console.table({
+        //     Id: id,
+        //     Nombre: title,
+        //     Descripción: description,
+        //     Prioridad: priority,
+        //     Estado: state,
+        // });
 
-        // Esta función pasó por argumento. La ejecutamos pasandole como argumentos los valores que ingresamos en el formulario. 
+        // Esta función pasó por argumento. La ejecutamos pasandole como argumentos los valores que ingresamos en el formulario.
         // Copio lo que está en task y además sumo un valor de ID con la función Date.now() que devuelve un numero desde 1970 en milesimas de segundo
         // Por último también convierto el state en true si el valor es "Completado" y en false si no lo es.
-        añadirTareaProp(
-            {
-                id: Date.now(),
-                // En un operador ternarios, si se devuelve directamente un true, no hace falta agregar el resto de la lógica.
-                state: state === "Completado",
-                ...task
-            }
-        )
+        añadirTareaProp({
+            id: Date.now(),
+            ...task,
+            
+            // En un operador ternarios, si se devuelve directamente un true, no hace falta agregar el resto de la lógica.
+            state: state === "Completado",
+        });
 
         Swal.fire({
             position: "center",
             icon: "success",
             title: "La tarea ha sido agregada",
             showConfirmButton: false,
-            timer: 1000
-          });
+            timer: 1000,
+        });
 
+        setTask({ title: "", description: "", state: "Pendiente", priority: false })
 
     };
 

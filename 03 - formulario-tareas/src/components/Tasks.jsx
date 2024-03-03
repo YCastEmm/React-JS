@@ -3,14 +3,17 @@ import { ItemTarea } from "./Li";
 
 
 // en los parámetros accedo al propTask dentro de todos los prop que recibe la función
-export let Tasks = ( {propTask, propBorrarTarea} ) => {
+export let Tasks = ( {propTask, propBorrarTarea, propModificarTarea} ) => {
     return (
         <div>
             <h2 className="text-center">Tareas</h2>
             <ul className="list-group">
                 {propTask.map((tarea) => (
-                    <ItemTarea propTarea = {tarea} propBorrarTarea = {propBorrarTarea} key = {tarea.id} />
+                    <ItemTarea propTarea = {tarea} propBorrarTarea = {propBorrarTarea} propModificarTarea={propModificarTarea} key = {tarea.id} />
                 ))}
+                {
+                    propTask.length === 0 && <li className="list-group-item text-center p-3 text-secondary bg-light">Sin tareas</li>
+                }
             </ul>
         </div>
     );
