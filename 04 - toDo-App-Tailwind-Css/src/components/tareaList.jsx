@@ -1,13 +1,11 @@
 import TareaItem from "./tareaItem";
 
-let TareaList = () => {
+let TareaList = ({ tareasProp }) => {
     return (
         <div className="mt-8 rounded-t-md bg-white">
-            <TareaItem />
-
-            <TareaItem />
-
-            <TareaItem />
+            {tareasProp.map((tarea) => (
+                <TareaItem key={tarea.id} tareaProp={tarea} />
+            ))}
         </div>
     );
 };
