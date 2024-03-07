@@ -30,18 +30,26 @@ let inicialStateTareas = [
 ];
 
 let App = () => {
-    
     let [tareas, setTareas] = useState(inicialStateTareas);
 
-    let nuevaTarea = (title) =>{
+    let cantidadTareas = tareas.length
+
+
+    let nuevaTarea = (title) => {
         let nuevaTarea = {
             id: Date.now(),
             title,
-            completed: false
-        }
+            completed: false,
+        };
+        setTareas([...tareas, nuevaTarea]);
+    };
 
-        setTareas([...tareas, nuevaTarea])
+    let borrarTareas = (id) =>{
+        let nuevoArray = tareas.filter( (tarea) => tarea.id !== id )
+        setTareas(nuevoArray)
     }
+    
+    
 
     return (
         <>
@@ -49,13 +57,13 @@ let App = () => {
                 <Header />
 
                 <main className="josefinFont container mx-auto mt-4 px-4">
-                    <TareaCreate nuevaTareaProp={nuevaTarea}/>
+                    <TareaCreate nuevaTareaProp={nuevaTarea} />
 
                     {/* {TareaList TareaUpdate y TareaDelete} */}
-                    <TareaList tareasProp={ tareas } />
+                    <TareaList tareasProp={tareas} borrarTareasProp={borrarTareas} />
 
                     {/* {TareaComputed} */}
-                    <TareaComputed />
+                    <TareaComputed contarTareasProp = {cantidadTareas} />
 
                     {/* {TareaFilter} */}
 
