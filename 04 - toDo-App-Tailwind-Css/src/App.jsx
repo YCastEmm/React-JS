@@ -32,8 +32,7 @@ let inicialStateTareas = [
 let App = () => {
     let [tareas, setTareas] = useState(inicialStateTareas);
 
-    let cantidadTareas = tareas.length
-
+    let cantidadTareas = tareas.filter((tarea) => !tarea.completed).length;
 
     let nuevaTarea = (title) => {
         let nuevaTarea = {
@@ -44,12 +43,18 @@ let App = () => {
         setTareas([...tareas, nuevaTarea]);
     };
 
-    let borrarTareas = (id) =>{
-        let nuevoArray = tareas.filter( (tarea) => tarea.id !== id )
-        setTareas(nuevoArray)
+    let borrarTareas = (id) => {
+        let nuevoArray = tareas.filter((tarea) => tarea.id !== id);
+        setTareas(nuevoArray);
+    };
+
+    let updateTarea = (id) => {
+        setTareas(tareas.map((tarea) => (tarea.id === id ? { ...tarea, completed: !tarea.completed } : tarea)));
+    };
+
+    let borrarCompletadas = () =>{
+        setTareas(tareas.filter( tarea => tarea.completed === false))
     }
-    
-    
 
     return (
         <>
@@ -60,10 +65,10 @@ let App = () => {
                     <TareaCreate nuevaTareaProp={nuevaTarea} />
 
                     {/* {TareaList TareaUpdate y TareaDelete} */}
-                    <TareaList tareasProp={tareas} borrarTareasProp={borrarTareas} />
+                    <TareaList tareasProp={tareas} borrarTareasProp={borrarTareas} updateTareaProp={updateTarea} />
 
                     {/* {TareaComputed} */}
-                    <TareaComputed contarTareasProp = {cantidadTareas} />
+                    <TareaComputed contarTareasProp={cantidadTareas} borrarCompletadasProp = {borrarCompletadas}/>
 
                     {/* {TareaFilter} */}
 
