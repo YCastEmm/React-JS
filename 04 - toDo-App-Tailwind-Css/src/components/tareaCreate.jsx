@@ -14,10 +14,10 @@ let TareaCreate = ({ nuevaTareaProp }) => {
     };
 
     return (
-        <form onSubmit={handleSubmitAddTarea} className="flex items-center gap-4 overflow-hidden rounded-md bg-white px-5 py-4">
+        <form onSubmit={handleSubmitAddTarea} className="flex items-center gap-4 overflow-hidden rounded-md bg-white px-5 py-4 dark:bg-gray-800 transition-all duration-300">
             <span className="block h-5 w-5 rounded-full border-2"></span>
             <input
-                className="w-full text-gray-500 outline-none"
+                className="w-full text-gray-500 dark:text-gray-300  outline-none dark:bg-gray-800 transition-all duration-300"
                 type="text"
                 placeholder="Crear una nueva tarea..."
                 value={title}
