@@ -26,6 +26,7 @@ let App = () => {
         setTareas([...tareas, nuevaTarea]);
     };
 
+    
     let [filter, setFilter] = useState("all");
 
     let changeFilter = (filter) => setFilter(filter);
@@ -56,6 +57,32 @@ let App = () => {
         setTareas(tareas.filter((tarea) => tarea.completed === false));
     };
 
+
+    // Función para manejar el final del arrastre de elementos
+    let handleDragEnd = result =>{
+        // Chequeo que no se arrastre fuera del DragDropContext
+        if (result.destination !== null) {
+            console.log(result);
+            let dragStart = result.source.index
+            let dragEnd = result.destination.index
+
+            // Crear una copia de los toDos
+            let tareasCopia = [...tareas]
+
+            // Extraer el elemento arrastrado
+            let [reorderTareas] = tareasCopia.splice(dragStart, 1)
+            console.log(reorderTareas)
+
+            // Insertar el elemento en su nueva posición
+            tareasCopia.splice(dragEnd, 0, reorderTareas)
+            console.log(tareasCopia)
+
+            // Actualizar el estado de los toDos
+            setTareas(tareasCopia)
+        }
+    }
+
+
     return (
         <>
             <div className="min-h-screen bg-gray-200 bg-[url('./assets/images/bg-mobile-light.jpg')] bg-contain bg-no-repeat font-custom transition-all duration-300 md:bg-[url('./assets/images/bg-desktop-light.jpg')] dark:bg-gray-900  dark:bg-[url('./assets/images/bg-mobile-dark.jpg')] dark:md:bg-[url('./assets/images/bg-desktop-dark.jpg')]">
@@ -66,7 +93,7 @@ let App = () => {
                     <TareaCreate nuevaTareaProp={nuevaTarea} />
 
                     {/* {TareaList TareaUpdate y TareaDelete} */}
-                    <TareaList tareasProp={tareasFiltradas()} borrarTareasProp={borrarTareas} updateTareaProp={updateTarea} />
+                    <TareaList handleDragEnd={handleDragEnd} tareasProp={tareasFiltradas()} borrarTareasProp={borrarTareas} updateTareaProp={updateTarea} />
 
                     {/* {TareaComputed} */}
                     <TareaComputed contarTareasProp={cantidadTareas} borrarCompletadasProp={borrarCompletadas} />
