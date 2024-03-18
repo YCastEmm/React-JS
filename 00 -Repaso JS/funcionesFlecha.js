@@ -15,6 +15,15 @@ const saludar = (nombre) => {
 
 // Variantes de Arrow Functions:
 
+// Función de flecha con múltiples líneas de código y retorno implícito utilizando paréntesis
+// esta es la que se usa por ejemplo en map, filter, etc
+const suma2 = (a, b) => (
+    a + b
+  );
+  
+  console.log(suma(3, 4)); // Output: 7
+  
+
 // 1. Arrow Function Anónima:
 //    - No tiene un nombre y se usa generalmente como argumento de otras funciones, como callbacks.
 setTimeout(() => {
@@ -45,3 +54,4 @@ const persona = {
         console.log('Mi nombre es ' + this.nombre);
     }
 };
+
