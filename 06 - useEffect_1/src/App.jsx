@@ -62,7 +62,7 @@ let App = () => {
             <ul>
                 {
                     pokemons.map((pokemon, index) =>(
-                        <li key={index}>
+                        <li key={index}> 
                             {pokemon.name} <a href={pokemon.url}>{pokemon.url}</a>
                         </li>
                     ))
