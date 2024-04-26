@@ -10,7 +10,7 @@ let LayoutPrivate = () =>{
     
 
 
-    // A contiunación otra alternativa para el Navigate, hecha con useNavigate y useEffect. Si el usuario está en false, se redirige sí o sí al home.
+    // A contiunación otra alternativa a el Navigate to="", hecha con useNavigate y useEffect. Si el usuario está en false, se redirige sí o sí al home.
     // let navigate = useNavigate()
 
     // useEffect(() =>{
