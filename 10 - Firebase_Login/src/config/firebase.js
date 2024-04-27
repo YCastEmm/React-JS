@@ -15,6 +15,7 @@ const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 
 
-let login = ({email, password}) =>{
+export let login = ({email, password}) =>{
     return signInWithEmailAndPassword(auth, email, password)
 }
+
