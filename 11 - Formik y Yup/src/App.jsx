@@ -1,22 +1,37 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import Form from "../components/Form";
+import Form from "./components/Form";
 
 function App() {
-    const [count, setCount] = useState(0);
 
-    let [values, setValues] = useState({text: ""})
+    let onSubmit = (values) =>{
+        console.log(values); 
+    }
 
-    console.log(values);
+
     return (
         <>
-            <Form>
-                <form action="">
-                    <input type="text" value={values.text} onChange={e => setValues({...values, text: e.target.value})} />
-                    
-                    <button type="submit">Submit</button>
-                </form>
+            <Form onSubmit={onSubmit} initialState={{text: "desde app", email: "test@test.com"}}>
+
+                {({ values, handleOnChange, handleSubmit }) => (
+                    <form onSubmit={handleSubmit}>
+                        <input
+                            type="text"
+                            placeholder="text"
+                            value={values.text}
+                            onChange={handleOnChange}
+                            name="text"
+                        />
+                        <input
+                            type="email"
+                            placeholder="ingrese email"
+                            value={values.email}
+                            onChange={handleOnChange}
+                            name="email"
+                        />
+
+                        <button type="submit">Submit</button>
+                    </form>
+                )}
             </Form>
         </>
     );
