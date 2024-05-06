@@ -10,7 +10,6 @@ body{
     width: 100%;
 }
 
-
 .logo{
     width: 150px;
 }
@@ -23,7 +22,6 @@ body{
     min-height: 120px;
 }
 
-
 .layout{
     display: flex;
     gap: 10px;
@@ -31,13 +29,23 @@ body{
 
 input{
     height: 35px;
-    width: 300px;
+    width: 600px;
     outline: none;
     border: 1px solid gainsboro;
     padding-left: 30px
-
 }
 
 input:focus{
     outline: none;
+}
+
+.botonBusqueda{
+    margin-left: 20px;
+    border-radius: 25px;
+    padding: 3px 20px 3px 20px;
+    border: none;
+}
+
+.botonBusqueda:hover{
+    background-color: rgb(138, 201, 245);
 }
