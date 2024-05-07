@@ -1,6 +1,6 @@
 let Header = () => {
     return (
-        <section className="bg-dark bg-gradient header">
+        <section className="header">
             <div className="container d-flex justify-content-between align-items-center gap-5 h-100">
                 <img className="logo" src="..\src\assets\logo-wh.png" alt="" />
                 <div className="flex-grow-1 ms-5">

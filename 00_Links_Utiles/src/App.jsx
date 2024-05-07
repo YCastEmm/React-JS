@@ -7,6 +7,8 @@ import Footer from "./components/Footer";
 import SearchBar from "./components/SearchBar";
 import useFetch from "./hooks/useFetch";
 import { useEffect, useState } from "react";
+import CreateLink from "./components/CreateLink";
+import RestoreCards from "./components/RestoreCards";
 
 function App() {
     let [data, setData] = useState(null);
@@ -36,11 +38,26 @@ function App() {
         }
     };
 
+    let agregarTarjeta = (titulo, link) =>{
+        let nuevoObjeto = {nombre: titulo, descripcion: "descripcion", url: link}
+        console.log(nuevoObjeto);
+        //let nuevoArrayData = data.push(nuevoObjeto)
+        setData([...data, nuevoObjeto])
+        //setData(...data, data.push(nuevoObjeto))
+    }
+
+    let restaurarTarjetas = () => {
+        setData(datos)
+    }
+
+
     if (data) {
         return (
             <>
                 <Header></Header>
+                <CreateLink agregarTarjeta={agregarTarjeta}></CreateLink>
                 <SearchBar filtrarElementos={filtrarElementos} />
+                <RestoreCards restaurarTarjetas={restaurarTarjetas}></RestoreCards>
                 <Layout>
                     {data.map((dato) => (
                         <Card title={dato.nombre} url={dato.url} description={dato.descripcion} />
