@@ -39,7 +39,7 @@ jobs:
         run: npm ci
       - name: Build
         run: | 
-        cd .\00_Practica\QR_Code_Challenge\ 
+        cd \00_Practica\QR_Code_Challenge\ 
         npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v4
