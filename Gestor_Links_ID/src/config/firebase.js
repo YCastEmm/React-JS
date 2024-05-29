@@ -70,17 +70,30 @@ const db = getFirestore(app);
 
 
 
-export async function getLinksFromDatabase() {
-    const querySnapshot = await getDocs(collection(db, "links_id"));
+// Función asíncrona que obtiene enlaces desde una base de datos de firestore
+export async function getLinksFromDatabase(coleccion) {
+    // Espera la ejecución de la función getDocs, que obtiene todos los documentos de una colección específica en la base de datos.
+    const querySnapshot = await getDocs(collection(db, coleccion));
+    
+    // Inicializa un array vacío para almacenar los enlaces obtenidos de la base de datos.
     const links = [];
+    
+    // Itera sobre cada documento en el resultado de la consulta (querySnapshot).
     querySnapshot.forEach((doc) => {
+        // Obtiene los datos del documento actual.
         const linkData = doc.data();
+        
+        // Añade un nuevo objeto al array 'links' con la estructura específica.
+        // Cada objeto contiene el ID del documento y los campos 'name', 'url' y 'description' obtenidos de los datos del documento.
         links.push({
-            id: doc.id,
-            name: linkData.name,
-            url: linkData.url,
-            description: linkData.description
+            id: doc.id, // ID del documento.
+            name: linkData.name, // Nombre del enlace.
+            url: linkData.url, // URL del enlace.
+            description: linkData.description // Descripción del enlace.
         });
     });
+    
+    // Devuelve el array 'links' que contiene todos los enlaces obtenidos de la base de datos.
     return links;
 }
+
