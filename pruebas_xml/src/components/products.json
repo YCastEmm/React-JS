@@ -1,20 +1,4 @@
-[
-	{
-		"nombre": "N4-MPXH",
-        "codigo": "P1101216",
-		"imagen": "https://manuales.x-28.com/m/app_mi_alarma/1/index.html?m=9",
-		"unidad": "residencias",
-		"descripcion": "Central 4 zonas ampliable a 32 (8 particiones de 4 zonas). Incluye zócalos para módulos plug In de particiones, de RF y de equipos de comunicación. Multicódigo desde 30 a 240 usuarios. Registrador de eventos desde 512 y hasta 4096 eventos.",		
-        "puntos": 20
-	},
-	{
-		"nombre": "N8F-MPXH",
-        "codigo": "P1101222",
-		"imagen": "https://manuales.x-28.com/m/app_mi_alarma/1/index.html?m=9",
-		"unidad": "residencias",
-		"descripcion": "Central 8 zonas ampliable a 64 (8 particiones de 8 zonas). Diseñada íntegramente con tecnología MPXH, que le brinda mayor seguridad, facilidad de instalación y  sencillez de programación. Incluye zócalos para módulos plug In de particiones, de RF y de equipos de comunicación. Multicódigo desde 30 a 240 usuarios. Registrador de eventos desde 512 y hasta 4096 eventos. Zonas de 24 horas. Salidas programables.",
-        "puntos": 15	
-	},
+[	
     {
 		"nombre": "TLCD-MPXH",
         "codigo": "P1103013",
@@ -46,5 +30,21 @@
 		"unidad": "residencias",
 		"descripcion": "Sensor magnético, autoadhesivo. Electrónica incorporada. Color blanco. Programación Soft. Memoria independiente.",
         "puntos": 5
-    }
+    },
+    {
+		"nombre": "N4-MPXH",
+        "codigo": "P1101216",
+		"imagen": "https://manuales.x-28.com/m/app_mi_alarma/1/index.html?m=9",
+		"unidad": "residencias",
+		"descripcion": "Central 4 zonas ampliable a 32 (8 particiones de 4 zonas). Incluye zócalos para módulos plug In de particiones, de RF y de equipos de comunicación. Multicódigo desde 30 a 240 usuarios. Registrador de eventos desde 512 y hasta 4096 eventos.",		
+        "puntos": 20
+	},
+	{
+		"nombre": "N8F-MPXH",
+        "codigo": "P1101222",
+		"imagen": "https://manuales.x-28.com/m/app_mi_alarma/1/index.html?m=9",
+		"unidad": "residencias",
+		"descripcion": "Central 8 zonas ampliable a 64 (8 particiones de 8 zonas). Diseñada íntegramente con tecnología MPXH, que le brinda mayor seguridad, facilidad de instalación y  sencillez de programación. Incluye zócalos para módulos plug In de particiones, de RF y de equipos de comunicación. Multicódigo desde 30 a 240 usuarios. Registrador de eventos desde 512 y hasta 4096 eventos. Zonas de 24 horas. Salidas programables.",
+        "puntos": 15	
+	}
 ]
