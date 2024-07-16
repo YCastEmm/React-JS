@@ -1,0 +1,42 @@
+[
+	{
+		"nombre": "N4-MPXH",
+        "codigo": "P1101216",
+		"imagen": "https://manuales.x-28.com/m/app_mi_alarma/1/index.html?m=9",
+		"unidad": "residencias",
+		"descripcion": "Central 4 zonas ampliable a 32 (8 particiones de 4 zonas). Incluye zócalos para módulos plug In de particiones, de RF y de equipos de comunicación. Multicódigo desde 30 a 240 usuarios. Registrador de eventos desde 512 y hasta 4096 eventos.",		
+        "puntos": 20
+	},
+	{
+		"nombre": "N8F-MPXH",
+        "codigo": "P1101222",
+		"imagen": "https://manuales.x-28.com/m/app_mi_alarma/1/index.html?m=9",
+		"unidad": "residencias",
+		"descripcion": "Central 8 zonas ampliable a 64 (8 particiones de 8 zonas). Diseñada íntegramente con tecnología MPXH, que le brinda mayor seguridad, facilidad de instalación y  sencillez de programación. Incluye zócalos para módulos plug In de particiones, de RF y de equipos de comunicación. Multicódigo desde 30 a 240 usuarios. Registrador de eventos desde 512 y hasta 4096 eventos. Zonas de 24 horas. Salidas programables.",
+        "puntos": 15	
+	},
+    {
+		"nombre": "TLCD-MPXH",
+        "codigo": "P1103013",
+		"imagen": "https://manuales.x-28.com/m/app_mi_alarma/1/index.html?m=9",
+		"unidad": "residencias",
+		"descripcion": "Teclado full LCD. Todos los mensajes del sistema en el display, incluidas las programaciones de la central, de todos los equipos MPXH y de las particiones. Teclas de pánico, incendio y emergencia médica independientes. Teclas para programaciones y test. Asistencia por voz de los mensajes del sistema. Expansor de zona incorporado. Zócalo para Módulo Plug In inalámbrico.",	
+        "puntos": 10	
+	},
+    {
+		"nombre": "MD 70W",
+        "codigo": "P1113230",
+		"imagen": "https://manuales.x-28.com/m/app_mi_alarma/1/index.html?m=9",
+		"unidad": "residencias",
+		"descripcion": "Detector infrarrojo inalámbrico, compatible con toda la línea inalámbrica. Procesador digital de señales (DMA). Compensación térmica inteligente. Contador de pulsos programable de 1 a 3. Muy alta inmunidad a RF. Cobertura 15x15 metros. Zona cero.",
+        "puntos": 15
+	},
+    {
+		"nombre": "MD 96RL-MPXH",
+        "codigo": "P1113248",
+		"imagen": "https://manuales.x-28.com/m/app_mi_alarma/1/index.html?m=9",
+		"unidad": "residencias",
+		"descripcion": "Detector infrarrojo con luz de emergencia incorporada. Procesador digital de señales (DMA). Compensación térmica inteligente. Contador de pulsos programable de 1 a 9. Memoria independiente. Funcionamiento en combinación entre dos o más detectores. Muy alta inmunidad a RF. Ajuste de ganancia programable. Cobertura 15x15 metros. Zona cero. Programación Soft. Prestaciones avanzadas. Base para montaje tipo rótula.",
+        "puntos": 10
+}
+]
