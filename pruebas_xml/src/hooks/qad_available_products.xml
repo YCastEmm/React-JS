@@ -1,283 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Data_Content>
      <Content Id="1">
-          <Codigo_producto>BOL01000</Codigo_producto>
-          <Nombre_producto>Bolsa Camiseta Chica</Nombre_producto>
-          <Descripcion_web>Bolsa Camiseta Chica</Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>4370.00</Disponible>
+          <Codigo_producto>P1101216</Codigo_producto>
+          <Nombre_producto>N4-MPXH</Nombre_producto>
+          <Precio_producto>250000</Precio_producto>
      </Content>
      <Content Id="2">
-          <Codigo_producto>BOL01020</Codigo_producto>
-          <Nombre_producto>Bolsa Camiseta Grande</Nombre_producto>
-          <Descripcion_web>Bolsa Camiseta Grande</Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>2420.00</Disponible>
+          <Codigo_producto>P1101222</Codigo_producto>
+          <Nombre_producto>N8F-MPXH</Nombre_producto>
+          <Precio_producto>270000</Precio_producto>
      </Content>
      <Content Id="3">
-          <Codigo_producto>BOL01040</Codigo_producto>
-          <Nombre_producto>Bolsa Camiseta Cámaras</Nombre_producto>
-          <Descripcion_web>Bolsa Camiseta chica</Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>0.00</Disponible>
+          <Codigo_producto>P1103013</Codigo_producto>
+          <Nombre_producto>TLCD-MPXH</Nombre_producto>
+          <Precio_producto>130000</Precio_producto>
      </Content>
      <Content Id="4">
-          <Codigo_producto>BOL01060</Codigo_producto>
-          <Nombre_producto>Bolsa Camiseta Cámaras</Nombre_producto>
-          <Descripcion_web>Bolsa Camiseta grande</Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>0.00</Disponible>
+          <Codigo_producto>P1113230</Codigo_producto>
+          <Nombre_producto>MD 70W</Nombre_producto>
+          <Precio_producto>65000</Precio_producto>
      </Content>
      <Content Id="5">
-          <Codigo_producto>CAC10100</Codigo_producto>
-          <Nombre_producto>Cable MPX3</Nombre_producto>
-          <Descripcion_web>Cable MPX3</Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>0.00</Disponible>
-     </Content>
+          <Codigo_producto>P1113248</Codigo_producto>
+          <Nombre_producto>MD 96RL-MPXH</Nombre_producto>
+          <Precio_producto>60000</Precio_producto>
+     </Content>   
      <Content Id="6">
-          <Codigo_producto>MKT01200</Codigo_producto>
-          <Nombre_producto>Exhibidor Tx 10,20,30</Nombre_producto>
-          <Descripcion_web>Exhibidor Tx 10,20,30</Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>90.00</Disponible>
-     </Content>
+          <Codigo_producto>P1113260</Codigo_producto>
+          <Nombre_producto>MD 97L-MPXH</Nombre_producto>
+          <Precio_producto>150000</Precio_producto>
+     </Content>   
      <Content Id="7">
-          <Codigo_producto>MKT02100</Codigo_producto>
-          <Nombre_producto>Cartel lateral Metálico</Nombre_producto>
-          <Descripcion_web></Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>68.00</Disponible>
-     </Content>
-     <Content Id="8">
-          <Codigo_producto>MKT03804</Codigo_producto>
-          <Nombre_producto>Banda vidriera Club 28 V</Nombre_producto>
-          <Descripcion_web></Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>12.00</Disponible>
-     </Content>
-     <Content Id="9">
-          <Codigo_producto>MKT03805</Codigo_producto>
-          <Nombre_producto>Banda vidriera Club 28 D</Nombre_producto>
-          <Descripcion_web></Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>12.00</Disponible>
-     </Content>
-     <Content Id="10">
-          <Codigo_producto>MKT03806</Codigo_producto>
-          <Nombre_producto>Banda generica Club  28</Nombre_producto>
-          <Descripcion_web></Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>2.00</Disponible>
-     </Content>
-     <Content Id="11">
-          <Codigo_producto>MKT04019</Codigo_producto>
-          <Nombre_producto>Banner Vehiculos</Nombre_producto>
-          <Descripcion_web></Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>9.00</Disponible>
-     </Content>
-     <Content Id="12">
-          <Codigo_producto>MKT04020</Codigo_producto>
-          <Nombre_producto>Banner Residencias</Nombre_producto>
-          <Descripcion_web></Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>10.00</Disponible>
-     </Content>
-     <Content Id="13">
-          <Codigo_producto>MKT04021</Codigo_producto>
-          <Nombre_producto>Banner Monitoreo</Nombre_producto>
-          <Descripcion_web></Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>19.00</Disponible>
-     </Content>
-     <Content Id="14">
-          <Codigo_producto>MKT04022</Codigo_producto>
-          <Nombre_producto>Banner Vivi Tranquilo</Nombre_producto>
-          <Descripcion_web></Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>12.00</Disponible>
-     </Content>
-     <Content Id="15">
-          <Codigo_producto>MKT04023</Codigo_producto>
-          <Nombre_producto>Banner Moto</Nombre_producto>
-          <Descripcion_web>Banner Moto</Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>2.00</Disponible>
-     </Content>
-     <Content Id="16">
-          <Codigo_producto>MKT04440</Codigo_producto>
-          <Nombre_producto>Roll up banner sat</Nombre_producto>
-          <Descripcion_web></Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>22.00</Disponible>
-     </Content>
-     <Content Id="17">
-          <Codigo_producto>MKT04636</Codigo_producto>
-          <Nombre_producto>Lamina exhibidor HA</Nombre_producto>
-          <Descripcion_web>Lamina exhibidor HA</Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>2.00</Disponible>
-     </Content>
-     <Content Id="18">
-          <Codigo_producto>MKT04637</Codigo_producto>
-          <Nombre_producto>Lamina exhibidor SAT Veh</Nombre_producto>
-          <Descripcion_web></Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>3.00</Disponible>
-     </Content>
-     <Content Id="19">
-          <Codigo_producto>MKT04638</Codigo_producto>
-          <Nombre_producto>Lamina exhibidor SAT Res</Nombre_producto>
-          <Descripcion_web></Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>0.00</Disponible>
-     </Content>
-     <Content Id="20">
-          <Codigo_producto>MKT04639</Codigo_producto>
-          <Nombre_producto>Lamina exhib. Veh.</Nombre_producto>
-          <Descripcion_web></Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>5.00</Disponible>
-     </Content>
-     <Content Id="21">
-          <Codigo_producto>MKT04640</Codigo_producto>
-          <Nombre_producto>Lamina exhib. Res</Nombre_producto>
-          <Descripcion_web></Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>9.00</Disponible>
-     </Content>
-     <Content Id="22">
-          <Codigo_producto>MKT04641</Codigo_producto>
-          <Nombre_producto>Lámina exhib. Autom.</Nombre_producto>
-          <Descripcion_web>Lámina exhib. Autom.</Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>0.00</Disponible>
-     </Content>
-     <Content Id="23">
-          <Codigo_producto>MKT04660</Codigo_producto>
-          <Nombre_producto>Lamina serie M</Nombre_producto>
-          <Descripcion_web>Lamina serie M</Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>1.00</Disponible>
-     </Content>
-     <Content Id="24">
-          <Codigo_producto>MKT04670</Codigo_producto>
-          <Nombre_producto>Lamina exhibidor camaras 32 pulgadas</Nombre_producto>
-          <Descripcion_web>Lamina exhibidor camaras Para TV 32 pulgadas</Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>2.00</Disponible>
-     </Content>
-     <Content Id="25">
-          <Codigo_producto>MKT04675</Codigo_producto>
-          <Nombre_producto>Lamina exhibidor camaras 43 pulgadas</Nombre_producto>
-          <Descripcion_web>Lamina exhibidor camaras Para TV 43 pulgadas</Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>1.00</Disponible>
-     </Content>
-     <Content Id="26">
-          <Codigo_producto>MKT04973</Codigo_producto>
-          <Nombre_producto>Flying banner China</Nombre_producto>
-          <Descripcion_web></Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>0.00</Disponible>
-     </Content>
-     <Content Id="27">
-          <Codigo_producto>MKT04996</Codigo_producto>
-          <Nombre_producto>Lona de  taller</Nombre_producto>
-          <Descripcion_web></Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>42.00</Disponible>
-     </Content>
-     <Content Id="28">
-          <Codigo_producto>MKT05002</Codigo_producto>
-          <Nombre_producto>Lona Tunning</Nombre_producto>
-          <Descripcion_web>Lona Tunning</Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>11.00</Disponible>
-     </Content>
-     <Content Id="29">
-          <Codigo_producto>MKT05003</Codigo_producto>
-          <Nombre_producto>Lona Institucional</Nombre_producto>
-          <Descripcion_web></Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>7.00</Disponible>
-     </Content>
-     <Content Id="30">
-          <Codigo_producto>MKT05004</Codigo_producto>
-          <Nombre_producto>Lona Linea N</Nombre_producto>
-          <Descripcion_web>Lona Linea N</Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>0.00</Disponible>
-     </Content>
-     <Content Id="31">
-          <Codigo_producto>MKT05005</Codigo_producto>
-          <Nombre_producto>Lona serie M</Nombre_producto>
-          <Descripcion_web>Lona serie M</Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>8.00</Disponible>
-     </Content>
-     <Content Id="32">
-          <Codigo_producto>MKT20221</Codigo_producto>
-          <Nombre_producto>Volante Residencias 2011</Nombre_producto>
-          <Descripcion_web>Volante Residencias 2011</Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>0.00</Disponible>
-     </Content>
-     <Content Id="33">
-          <Codigo_producto>MKT20221/100</Codigo_producto>
-          <Nombre_producto>Volante La única Solución integral</Nombre_producto>
-          <Descripcion_web>Volante La única Solución integral</Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>0.00</Disponible>
-     </Content>
-     <Content Id="34">
-          <Codigo_producto>MKT20222</Codigo_producto>
-          <Nombre_producto>Volante Residencias</Nombre_producto>
-          <Descripcion_web>Volante Residencias</Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>0.00</Disponible>
-     </Content>
-     <Content Id="35">
-          <Codigo_producto>MKT20222/100</Codigo_producto>
-          <Nombre_producto>Volante Residencias 2015</Nombre_producto>
-          <Descripcion_web>Volante Residencias 2015</Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>0.00</Disponible>
-     </Content>
-     <Content Id="36">
-          <Codigo_producto>MKT21002</Codigo_producto>
-          <Nombre_producto>Presupuestador Res 2011</Nombre_producto>
-          <Descripcion_web>Presupuestador Res 2011</Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>0.00</Disponible>
-     </Content>
-     <Content Id="37">
-          <Codigo_producto>MKT21002/4</Codigo_producto>
-          <Nombre_producto>Block presupuestador x 4 U Camaras</Nombre_producto>
-          <Descripcion_web>Block presupuestador x 4 U Camaras</Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>0.00</Disponible>
-     </Content>
-     <Content Id="38">
-          <Codigo_producto>MKT21011</Codigo_producto>
-          <Nombre_producto>Guia Visual Residencias</Nombre_producto>
-          <Descripcion_web>Guia Visual Residencias</Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>852.00</Disponible>
-     </Content>
-     <Content Id="39">
-          <Codigo_producto>MKT21012</Codigo_producto>
-          <Nombre_producto>Exhibidor 3D Res</Nombre_producto>
-          <Descripcion_web>Exhibidor 3D Res</Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>0.00</Disponible>
-     </Content>
-     <Content Id="40">
-          <Codigo_producto>MKT30300</Codigo_producto>
-          <Nombre_producto>Tríptico carpita</Nombre_producto>
-          <Descripcion_web>Tríptico carpita</Descripcion_web>
-          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
-          <Disponible>57.00</Disponible>
-     </Content>
+          <Codigo_producto>P1110106</Codigo_producto>
+          <Nombre_producto>BIR 230T</Nombre_producto>
+          <Precio_producto>70000</Precio_producto>
+     </Content>  
 </Data_Content>

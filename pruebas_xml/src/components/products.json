@@ -38,5 +38,13 @@
 		"unidad": "residencias",
 		"descripcion": "Detector infrarrojo con luz de emergencia incorporada. Procesador digital de señales (DMA). Compensación térmica inteligente. Contador de pulsos programable de 1 a 9. Memoria independiente. Funcionamiento en combinación entre dos o más detectores. Muy alta inmunidad a RF. Ajuste de ganancia programable. Cobertura 15x15 metros. Zona cero. Programación Soft. Prestaciones avanzadas. Base para montaje tipo rótula.",
         "puntos": 10
-}
+    },
+    {
+		"nombre": "SMAGB-MPXH",
+        "codigo": "P1109023",
+		"imagen": "https://manuales.x-28.com/m/app_mi_alarma/1/index.html?m=9",
+		"unidad": "residencias",
+		"descripcion": "Sensor magnético, autoadhesivo. Electrónica incorporada. Color blanco. Programación Soft. Memoria independiente.",
+        "puntos": 5
+    }
 ]
