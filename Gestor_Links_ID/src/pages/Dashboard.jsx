@@ -10,8 +10,11 @@ let Dashboard = () =>{
     const {datos, error, loading} = useGetLinks("links_id");
     const [links, setLinks] = useState(null);
 
+    
+
     useEffect(() => {
         if (datos) {
+            console.log(datos.sort());
             setLinks(datos);
             console.log(datos);
         }
@@ -41,7 +44,6 @@ let Dashboard = () =>{
                 <h3>Bienvenido {user.displayName}</h3>
                 {user.email === "yair.castagnola@gmail.com" ?  <h1>Taras para Yair</h1> : <h1>Tareas para X28</h1>}
                 <Buscador filtrarElementos={filtrarElementos}></Buscador>
-
                 <Links links={links}></Links>
             </main>
 }

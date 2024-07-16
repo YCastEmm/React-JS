@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Data_Content>
+     <Content Id="1">
+          <Codigo_producto>BOL01000</Codigo_producto>
+          <Nombre_producto>Bolsa Camiseta Chica</Nombre_producto>
+          <Descripcion_web>Bolsa Camiseta Chica</Descripcion_web>
+          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
+          <Disponible>4370.00</Disponible>
+     </Content>
+     <Content Id="2">
+          <Codigo_producto>BOL01020</Codigo_producto>
+          <Nombre_producto>Bolsa Camiseta Grande</Nombre_producto>
+          <Descripcion_web>Bolsa Camiseta Grande</Descripcion_web>
+          <Precio_producto>SIN TARIFA VIGENTE</Precio_producto>
+          <Disponible>2420.00</Disponible>
+     </Content>
+</Data_Content>

@@ -1,0 +1,835 @@
+[
+	{
+		"nombre": "Guía de App X-28 Car (Android)",
+		"link": "pdf/veh/Guia_App_X-28_Car_Android.pdf",
+		"unidad": "vehiculos",
+		"grupo": "app",
+		"tipo": "guias"
+	},
+	{
+		"nombre": "Guía de App X-28 Car (iOS)",
+		"link": "pdf/veh/Guia_App_X-28_Car_Ios.pdf",
+		"unidad": "vehiculos",
+		"grupo": "app",
+		"tipo": "guias"
+	},
+	{
+		"nombre": "Guía de accionamiento de baúl mediante PGM1",
+		"link": "pdf/veh/Guia_Pgm1_Accionar_La_Apertura_Del_Baul_Mediante_La_Tecla_Multifuncion_Del_Tx30.pdf",
+		"unidad": "vehiculos",
+		"grupo": "pgm",
+		"tipo": "guias"
+	},
+	{
+		"nombre": "Guía de agregado de ACP en MACP",
+		"link": "pdf/veh/Guia_Macp07_Agregado_De_Acp-E_Para_Manejar_El_Centralizado_De_Puertas.pdf",
+		"unidad": "vehiculos",
+		"grupo": "macp",
+		"tipo": "guias"
+	},
+	{
+		"nombre": "Guía de codificación de transmisores en línea M10/20",
+		"link": "pdf/veh/Guia_Moto_01_Transmisores_Codificacion_De_Transmisores.pdf",
+		"unidad": "vehiculos",
+		"grupo": "motos",
+		"tipo": "guias"
+	},
+	{
+		"nombre": "Guía de codificación de transmisores en línea Z",
+		"link": "pdf/veh/Guia_Transmisores_Codificacion_Linea_Z.pdf",
+		"unidad": "vehiculos",
+		"grupo": "transmisores",
+		"tipo": "guias"
+	},
+	{
+		"nombre": "Guía de conexión de centralizado de puertas en MACP",
+		"link": "pdf/veh/Guia_Macp13_Conexion_Del_Centralizado_De_Puertas_En_línea_Vw.pdf",
+		"unidad": "vehiculos",
+		"grupo": "macp",
+		"tipo": "guias"
+	},
+	{
+		"nombre": "Guía de conexión de tres puntos en MACP",
+		"link": "pdf/veh/Guia_Macp05_Tres_Puntos_Por_Senal_Positiva.pdf",
+		"unidad": "vehiculos",
+		"grupo": "macp",
+		"tipo": "guias"
+	},
+	{
+		"nombre": "Guía de configuración de PGM en Z30/40/50",
+		"link": "pdf/veh/Guia_Pgm_Autolight_Linea_Z.pdf",
+		"unidad": "vehiculos",
+		"grupo": "pgm",
+		"tipo": "guias"
+	},
+	{
+		"nombre": "Guía de inclusión de zonas con Radar Max en M20",
+		"link": "pdf/veh/Guia_Radar_Max_Inclusion_De_Zonas.pdf",
+		"unidad": "vehiculos",
+		"grupo": "radar",
+		"tipo": "guias"
+	},
+	{
+		"nombre": "Guía de inclusión de zonas con Radar Max en Z30/40/50",
+		"link": "pdf/veh/Guia_Radar_Max_Inclusion_De_Zonas_Z30_Z40_Z50.pdf",
+		"unidad": "vehiculos",
+		"grupo": "radar",
+		"tipo": "guias"
+	},
+	{
+		"nombre": "Guía de ingreso a programación avanzada en línea M10/20",
+		"link": "pdf/veh/Guia_Ingreso_A_Programacion_De_Avanzada.pdf",
+		"unidad": "vehiculos",
+		"grupo": "programacion",
+		"tipo": "guias"
+	},
+	{
+		"nombre": "Guía de ingreso a programación avanzada en línea Z",
+		"link": "pdf/veh/Guia_Ingreso_A_Programaciones_De_Avanzada_Linea_Z.pdf",
+		"unidad": "vehiculos",
+		"grupo": "programacion",
+		"tipo": "guias"
+	},
+	{
+		"nombre": "Guía de instalación de MLV2",
+		"link": "pdf/veh/Guia_Mlv2_Instalacion_Configuracion.pdf",
+		"unidad": "vehiculos",
+		"grupo": "mlv",
+		"tipo": "guias"
+	},
+	{
+		"nombre": "Guía de inversión de polaridad en MACP",
+		"link": "pdf/veh/Guia_Macp_01_Inversion_De_Polaridad_Con_Masa_En_Reposo.pdf",
+		"unidad": "vehiculos",
+		"grupo": "macp",
+		"tipo": "guias"
+	},
+	{
+		"nombre": "Guía de manejo de relé mediante PGM2",
+		"link": "pdf/veh/Guia_Pgm2_Para_Manejar_Un_Rele_Para_El_Corte_De_Encendido_Linea_Z.pdf",
+		"unidad": "vehiculos",
+		"grupo": "pgm",
+		"tipo": "guias"
+	},
+	{
+		"nombre": "Guía de progamaciones en KL20",
+		"link": "pdf/veh/Guia_Kl20_Programaciones_De_Avanzada.pdf",
+		"unidad": "vehiculos",
+		"grupo": "programacion",
+		"tipo": "guias"
+	},
+	{
+		"nombre": "Guía de programación en SAT1 y PAGER1",
+		"link": "pdf/veh/Guia_Sat_Pager_Programacion_Basica.pdf",
+		"unidad": "vehiculos",
+		"grupo": "sat",
+		"tipo": "guias"
+	},
+	{
+		"nombre": "Guía de programación inicial en KL20",
+		"link": "pdf/veh/Guia_Kl20_Programacion_Inicial.pdf",
+		"unidad": "vehiculos",
+		"grupo": "programacion",
+		"tipo": "guias"
+	},
+	{
+		"nombre": "Guía de recuperación de clave en SAT1 y PAGER1",
+		"link": "pdf/veh/Guia_Sat_1_Pager1_Recuperacion_De_Clave_Master.pdf",
+		"unidad": "vehiculos",
+		"grupo": "sat",
+		"tipo": "guias"
+	},
+	{
+		"nombre": "Guía de recuperación de clave en SAT2 y PAGER2",
+		"link": "pdf/veh/Guia_Sat2_Pager2_Recuperacion_De_Clave_Master.pdf",
+		"unidad": "vehiculos",
+		"grupo": "sat",
+		"tipo": "guias"
+	},
+	{
+        "nombre": "Guía de PGM2 - Para apertura de techo eléctrico mediante la tecla multifunción del TX30",
+        "link": "pdf/veh/Guia_PGM2_apertura_techo_electrico.pdf",
+        "unidad": "vehiculos",
+        "grupo": "pgm",
+        "tipo": "guias"
+    },
+    {
+        "nombre": "Guía de PGM2 - Para manejar subida de levantavidrios eléctrico - Línea Z",
+        "link": "pdf/veh/Guia_PGM2_levantavidrios_electrico_LineaZ.pdf",
+        "unidad": "vehiculos",
+        "grupo": "pgm",
+        "tipo": "guias"
+    },
+    {
+        "nombre": "Guía de PGM2 -Accionar la bocina atada al disparo de la central de alarma - Línea-Z",
+        "link": "pdf/veh/Guia_PGM2_Accionar_bocina_LineaZ.pdf",
+        "unidad": "vehiculos",
+        "grupo": "pgm",
+        "tipo": "guias"
+    },
+    {
+        "nombre": "Guía de SAT 2 - PAGER2 - PGM0 Para comandar una sirena",
+        "link": "pdf/veh/Guia_SAT 2-PAGER2_PGM0_comandar_sirena.pdf",
+        "unidad": "vehiculos",
+        "grupo": "sat",
+        "tipo": "guias"
+    },
+    {
+        "nombre": "Guía de SAT 2 - PAGER2 - PGM2 Como pulsador de pedido de ayuda",
+        "link": "pdf/veh/Guia_SAT2-PAGER2_PGM2_pulsador_pedido_ayuda.pdf",
+        "unidad": "vehiculos",
+        "grupo": "sat",
+        "tipo": "guias"
+    },
+    {
+        "nombre": "Guía de SAT2-PAGER2 - Programación de entrada de disparo de alarma",
+        "link": "pdf/veh/Guia_SAT2-PAGER2_Programacion_entrada_disparo.pdf",
+        "unidad": "vehiculos",
+        "grupo": "sat",
+        "tipo": "guias"
+    },
+    {
+        "nombre": "Guía de SAT-PAGER - Configuración de APN",
+        "link": "pdf/veh/Guia_SAT-PAGER_Configuracion_APN.pdf",
+        "unidad": "vehiculos",
+        "grupo": "sat",
+        "tipo": "guias"
+    },
+    {
+        "nombre": "Guía de Centralizado de puertas - Diferencias entre cerradura Motrol y Valeo para Volkswagen",
+        "link": "pdf/veh/Guia_Kit_Puertas_Diferencias_cerraduras_Volkswagen.pdf",
+        "unidad": "vehiculos",
+        "grupo": "puertas",
+        "tipo": "guias"
+    },
+    {
+        "nombre": "Guía de Linea Z - Agregado relé corte corriente adicional",
+        "link": "pdf/veh/Guia_LineaZ_Agregado_rele_corte.pdf",
+        "unidad": "vehiculos",
+        "grupo": "centrales",
+        "tipo": "guias"
+    },
+    {
+        "nombre": "Guía de Linea Z - Conexión de puertas a la luz de cortesía evitando el modo económico",
+        "link": "pdf/veh/Guia_LineaZ_Conexion_puertas_luz_cortesia.pdf",
+        "unidad": "vehiculos",
+        "grupo": "centrales",
+        "tipo": "guias"
+    },
+    {
+        "nombre": "Guía de Linea Z - Puerta problemática",
+        "link": "pdf/veh/Guia_LineaZ _puerta_problematica.pdf",
+        "unidad": "vehiculos",
+        "grupo": "centrales",
+        "tipo": "guias"
+    },
+    {
+        "nombre": "Guía de M10-M20 - Conexión de Luces y neutral al stop de la moto",
+        "link": "pdf/veh/Guia_M10-M20_Conexion_Luces_neutral_stop_moto.pdf",
+        "unidad": "vehiculos",
+        "grupo": "centrales",
+        "tipo": "guias"
+    },
+    {
+        "nombre": "Guía de MLV2 - Instalación-Configuración",
+        "link": "pdf/veh/Guia_MLV2_Instalacion_Configuracion.pdf",
+        "unidad": "vehiculos",
+        "grupo": "mlv",
+        "tipo": "guias"
+    },
+    {
+        "nombre": "Guía de PGM1 - Accionar espejos eléctricos con la activación de la central de alarma - Línea Z",
+        "link": "pdf/veh/Guia_PGM1_Accionar_espejos_electricos_LineaZ.pdf",
+        "unidad": "vehiculos",
+        "grupo": "pgm",
+        "tipo": "guias"
+    },
+    {
+        "nombre": "Guía de PGM1 - Aviso de luces encendidas - Línea Z",
+        "link": "pdf/veh/Guia_PGM1_Aviso_luces_encendidas_LineaZ.pdf",
+        "unidad": "vehiculos",
+        "grupo": "pgm",
+        "tipo": "guias"
+    },
+    {
+        "nombre": "Guía de PGM1 - Para accionar una luz o un dispositivo - Línea Z",
+        "link": "pdf/veh/Guia_PGM1_accionar_luz_o_dispositivo_LineaZ.pdf",
+        "unidad": "vehiculos",
+        "grupo": "pgm",
+        "tipo": "guias"
+    },
+    {
+        "nombre": "Guía de PGM1 - Para pedido de ayuda urgente mediante un touch - Línea Z",
+        "link": "pdf/veh/Guia_PGM1_pedido_ayuda_touch_LineaZ.pdf",
+        "unidad": "vehiculos",
+        "grupo": "pgm",
+        "tipo": "guias"
+    },
+    {
+        "nombre": "Guía de PGM2 - Accionar espejos eléctricos con la activación de la central de alarma - Línea Z",
+        "link": "pdf/veh/Guia_PGM2_Accionar_espejos_electricos_LineaZ.pdf",
+        "unidad": "vehiculos",
+        "grupo": "pgm",
+        "tipo": "guias"
+    },
+    {
+        "nombre": "Guía de PGM2 - Para encender la luz de cortesía del vehículo - Línea Z",
+        "link": "pdf/veh/Guia_PGM2_encender_luz_cortesia_LineaZ.pdf",
+        "unidad": "vehiculos",
+        "grupo": "pgm",
+        "tipo": "guias"
+    },
+    {
+        "nombre": "Guía de SAT2-PAGER2 - PGM0 Como salida para detener el  motor del vehículo",
+        "link": "pdf/veh/Guia_SAT2-PAGER2_PGM0_salida_detener_motor.pdf",
+        "unidad": "vehiculos",
+        "grupo": "sat",
+        "tipo": "guias"
+    },
+    {
+        "nombre": "Guía de SAT2-PAGER2 - PGM0 Para comandar el cierre de las puertas",
+        "link": "pdf/veh/Guia_SAT2-PAGER2_PGM0_comandar_cierre_puertas.pdf",
+        "unidad": "vehiculos",
+        "grupo": "sat",
+        "tipo": "guias"
+    },
+    {
+        "nombre": "Guía de SAT2-PAGER2 - PGM0 Para comandar la bocina",
+        "link": "pdf/veh/Guia_SAT2-PAGER2_PGM0_comandar_bocina.pdf",
+        "unidad": "vehiculos",
+        "grupo": "sat",
+        "tipo": "guias"
+    },
+    {
+        "nombre": "Guía de SAT2-PAGER2 - PGM1 Como salida para detener el  motor del vehículo",
+        "link": "pdf/veh/Guia_SAT2-PAGER2_PGM1_salida_detener_motor.pdf",
+        "unidad": "vehiculos",
+        "grupo": "sat",
+        "tipo": "guias"
+    },
+    {
+        "nombre": "Guía de SAT2-PAGER2 - PGM1 Para comandar la bocina",
+        "link": "pdf/veh/Guia_SAT2-PAGER2_PGM1_comandar_bocina.pdf",
+        "unidad": "vehiculos",
+        "grupo": "sat",
+        "tipo": "guias"
+    },
+    {
+        "nombre": "Guía de SAT2-PAGER2 - PGM1 Para comandar una sirena",
+        "link": "pdf/veh/Guia_SAT2-PAGER2_PGM1_comandar_sirena.pdf",
+        "unidad": "vehiculos",
+        "grupo": "sat",
+        "tipo": "guias"
+    },
+    {
+        "nombre": "Guía de SAT2-PAGER2 - PGM2 Como entrada de sensor magnético",
+        "link": "pdf/veh/Guia_SAT2-PAGER2_PGM2_entrada_sensor_magnetico.pdf",
+        "unidad": "vehiculos",
+        "grupo": "sat",
+        "tipo": "guias"
+    },
+    {
+        "nombre": "Guía de PGM1 - Accionar la bocina atada al disparo de la central de alarma",
+        "link": "pdf/veh/Guia_PGM1_Accionar_bocina.pdf",
+        "unidad": "vehiculos",
+        "grupo": "pgm",
+        "tipo": "guias"
+    },
+    {
+        "nombre": "Guía de PGM1 - Para apertura de techo eléctrico",
+        "link": "pdf/veh/Guia_PGM1_apertura_techo_eléctrico.pdf",
+        "unidad": "vehiculos",
+        "grupo": "pgm",
+        "tipo": "guias"
+    },
+    {
+        "nombre": "Guía de PGM1 - Para pulsador para accionar el centralizado de puertas",
+        "link": "pdf/veh/Guia_PGM1_pulsador_centralizado_puertas.pdf",
+        "unidad": "vehiculos",
+        "grupo": "pgm",
+        "tipo": "guias"
+    },
+    {
+        "nombre": "Guía de PGM2 - Accionar una luz o un dispositivo mediante la tecla multifunción",
+        "link": "pdf/veh/Guia_PGM2_Accionar_luz_dispositivo_tecla.pdf",
+        "unidad": "vehiculos",
+        "grupo": "pgm",
+        "tipo": "guias"
+    },
+	{
+        "nombre": "Boletín de RADAR MAX  - Compatibilidad entre radares en una misma instalación",
+        "link": "pdf/veh/Boletin_RADAR_MAX_Compatibilidad_radares_instalacion.pdf",
+        "unidad": "vehiculos",
+        "grupo": "radar",
+        "tipo": "boletines"
+    },
+    {
+        "nombre": "Boletín de KLMACP - Compatibilidad y Utilización",
+        "link": "pdf/veh/Boletin_KLMACP_Compatibilidad_Utilizacion.pdf",
+        "unidad": "vehiculos",
+        "grupo": "keyless",
+        "tipo": "boletines"
+    },
+    {
+        "nombre": "Boletín de M10-20 - Importancia de la conexión del cable neutral-stop",
+        "link": "pdf/veh/Boletin_M10-20_Importancia_conexion_cable_neutral_stop.pdf",
+        "unidad": "vehiculos",
+        "grupo": "centrales",
+        "tipo": "boletines"
+    },
+    {
+        "nombre": "Boletín de Línea Z-KL - Agregado de MD50R",
+        "link": "pdf/veh/Boletin_Linea_Z-KL_Agrgado_MD50R.pdf",
+        "unidad": "vehiculos",
+        "grupo": "centrales",
+        "tipo": "boletines"
+    },
+    {
+        "nombre": "Boletín de Línea Z - Compatibilidad de conexión centralizados de puertas sobre un solo cable",
+        "link": "pdf/veh/Boletin_Linea_Z_Compatibilidad_conexion_centralizados_puertas.pdf",
+        "unidad": "vehiculos",
+        "grupo": "centrales",
+        "tipo": "boletines"
+    },
+    {
+        "nombre": "Boletín de M10-20 - Protección para guarda cascos o cajuelas",
+        "link": "pdf/veh/Boletin_M10-20_Proteccion_guardacascos_cajuelas.pdf",
+        "unidad": "vehiculos",
+        "grupo": "centrales",
+        "tipo": "boletines"
+    },
+    {
+        "nombre": "Boletín de Línea Z30-Z40-Z50 - Entradas y salidas auxiliares PGM",
+        "link": "pdf/veh/Boletin_Linea_Z30-Z40-Z50_Entradas_salidas_PGM.pdf",
+        "unidad": "vehiculos",
+        "grupo": "centrales",
+        "tipo": "boletines"
+    },
+    {
+        "nombre": "Boletín de Car Cam - Recomendación de instalación",
+        "link": "pdf/veh/Boletin_CARCAM_Recomendacion_instalacion.pdf",
+        "unidad": "vehiculos",
+        "grupo": "carcam",
+        "tipo": "boletines"
+    },
+    {
+        "nombre": "Boletín de M10-20 - Ingreso fallido a programación",
+        "link": "pdf/veh/Boletin_M10-20_Ingreso_fallido_programacion.pdf",
+        "unidad": "vehiculos",
+        "grupo": "centrales",
+        "tipo": "boletines"
+    },
+    {
+        "nombre": "Boletín de M10-20 - Conexión a luces led",
+        "link": "pdf/veh/Boletin_M10-20_Conexion_luces_led.pdf",
+        "unidad": "vehiculos",
+        "grupo": "centrales",
+        "tipo": "boletines"
+    },
+    {
+        "nombre": "Boletín de Línea Z-KL20-M10-20 - Interferencias con el sistema antiasalto por presencia",
+        "link": "pdf/veh/Boletin_Linea_Z-KL20-M10-20_Interferencias_sistema_antiasalto_presencia.pdf",
+        "unidad": "vehiculos",
+        "grupo": "centrales",
+        "tipo": "boletines"
+    },
+	{
+		"nombre": "Manual de A3",
+		"link": "https://manuales.x-28.com/m/A3/1/index.html?m=9",
+		"unidad": "vehiculos",
+		"grupo": "centrales",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de AUTOLIGHT 10",
+		"link": "pdf/veh/Manual_AUTOLIGHT_10.pdf",
+		"unidad": "vehiculos",
+		"grupo": "modulos",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de AUTOLIGHT-MPXC",
+		"link": "pdf/veh/Manual_AUTOLIGHT-MPXC.pdf",
+		"unidad": "vehiculos",
+		"grupo": "modulos",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de CAR CAM",
+		"link": "https://manuales.x-28.com/m/Car_Cam/1/index.html?m=9",
+		"unidad": "vehiculos",
+		"grupo": "carcam",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de CAR CAM-MPXC",
+		"link": "https://manuales.x-28.com/m/Car_Cam/1/index.html?m=8",
+		"unidad": "vehiculos",
+		"grupo": "carcam",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de DMV",
+		"link": "https://manuales.x-28.com/m/DMV/1/index.html?m=9",
+		"unidad": "vehiculos",
+		"grupo": "radares",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de K115",
+		"link": "https://manuales.x-28.com/m/K115/1/index.html",
+		"unidad": "vehiculos",
+		"grupo": "acp",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de K123",
+		"link": "pdf/veh/Manual_K123.pdf",
+		"unidad": "vehiculos",
+		"grupo": "acp",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de K130",
+		"link": "pdf/veh/Manual_K130.pdf",
+		"unidad": "vehiculos",
+		"grupo": "acp",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de K132",
+		"link": "https://manuales.x-28.com/m/K132/1/index.html",
+		"unidad": "vehiculos",
+		"grupo": "acp",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de K161",
+		"link": "https://manuales.x-28.com/m/K161/1/index.html",
+		"unidad": "vehiculos",
+		"grupo": "acp",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de K162",
+		"link": "pdf/veh/Manual_K162.pdf",
+		"unidad": "vehiculos",
+		"grupo": "acp",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de K170",
+		"link": "pdf/veh/Manual_K170.pdf",
+		"unidad": "vehiculos",
+		"grupo": "acp",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de K192",
+		"link": "https://manuales.x-28.com/m/K192/1/index.html",
+		"unidad": "vehiculos",
+		"grupo": "acp",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de K235",
+		"link": "pdf/veh/Manual_K235.pdf",
+		"unidad": "vehiculos",
+		"grupo": "acp",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de K260",
+		"link": "pdf/veh/Manual_K260.pdf",
+		"unidad": "vehiculos",
+		"grupo": "acp",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de K262",
+		"link": "pdf/veh/Manual_K262.pdf",
+		"unidad": "vehiculos",
+		"grupo": "acp",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de K270",
+		"link": "pdf/veh/Manual_K270.pdf",
+		"unidad": "vehiculos",
+		"grupo": "acp",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de K271",
+		"link": "pdf/veh/Manual_K271.pdf",
+		"unidad": "vehiculos",
+		"grupo": "acp",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de K276",
+		"link": "pdf/veh/Manual_K276.pdf",
+		"unidad": "vehiculos",
+		"grupo": "acp",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de K278",
+		"link": "pdf/veh/Manual_K278.pdf",
+		"unidad": "vehiculos",
+		"grupo": "acp",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de K285",
+		"link": "pdf/veh/Manual_K285.pdf",
+		"unidad": "vehiculos",
+		"grupo": "acp",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de K320",
+		"link": "pdf/veh/Manual_K320.pdf",
+		"unidad": "vehiculos",
+		"grupo": "acp",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de K322",
+		"link": "pdf/veh/Manual_K322.pdf",
+		"unidad": "vehiculos",
+		"grupo": "acp",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de K420",
+		"link": "https://manuales.x-28.com/m/K420/1/index.html?m=9",
+		"unidad": "vehiculos",
+		"grupo": "acp",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de K440",
+		"link": "https://manuales.x-28.com/m/K440/1/index.html?m=9",
+		"unidad": "vehiculos",
+		"grupo": "acp",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de KIT RZ",
+		"link": "pdf/veh/Manual_KIT_RZ.pdf",
+		"unidad": "vehiculos",
+		"grupo": "transmisores",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de KL20 RH",
+		"link": "pdf/veh/Manual_KL20.pdf",
+		"unidad": "vehiculos",
+		"grupo": "centrales",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de KL20 RS",
+		"link": "pdf/veh/Manual_KL20.pdf",
+		"unidad": "vehiculos",
+		"grupo": "centrales",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de KL20 S",
+		"link": "pdf/veh/Manual_KL20.pdf",
+		"unidad": "vehiculos",
+		"grupo": "centrales",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de KLACP-MPXC",
+		"link": "pdf/veh/Manual_KLACP-MPXC.pdf",
+		"unidad": "vehiculos",
+		"grupo": "modulos",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de M10",
+		"link": "pdf/veh/Manual_M10_M20.pdf",
+		"unidad": "vehiculos",
+		"grupo": "centrales",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de M20",
+		"link": "pdf/veh/Manual_M10_M20.pdf",
+		"unidad": "vehiculos",
+		"grupo": "centrales",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de MACP",
+		"link": "https://manuales.x-28.com/m/MACP/1/index.html?m=9",
+		"unidad": "vehiculos",
+		"grupo": "modulos",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de MBOC-MPXC",
+		"link": "pdf/veh/Manual_MBOC-MPXC.pdf",
+		"unidad": "vehiculos",
+		"grupo": "sirenas",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de MLV2",
+		"link": "https://manuales.x-28.com/m/MLV2/1/index.html",
+		"unidad": "vehiculos",
+		"grupo": "modulos",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de P3",
+		"link": "https://manuales.x-28.com/m/P3/1/index.html?m=9",
+		"unidad": "vehiculos",
+		"grupo": "centrales",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de PAGER1",
+		"link": "https://manuales.x-28.com/m/PAGER1/3/index.html?m=9",
+		"unidad": "vehiculos",
+		"grupo": "avisadores",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de RADAR-MPXC",
+		"link": "pdf/veh/Manual_RADAR-MPXC.pdf",
+		"unidad": "vehiculos",
+		"grupo": "radares",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de SAT1 V3",
+		"link": "https://manuales.x-28.com/m/SAT1/3/index.html?m=9",
+		"unidad": "vehiculos",
+		"grupo": "avisadores",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de SAT2 V3",
+		"link": "https://manuales.x-28.com/m/SAT2/3/index.html?m=9",
+		"unidad": "vehiculos",
+		"grupo": "avisadores",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de SCANNER-MPXC",
+		"link": "pdf/veh/Manual_SCANNER-MPXC.pdf",
+		"unidad": "vehiculos",
+		"grupo": "scanner",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de SE100",
+		"link": "pdf/veh/Manual_SE100.pdf",
+		"unidad": "vehiculos",
+		"grupo": "estacionamiento",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de T8 12 SB",
+		"link": "https://manuales.x-28.com/m/T824_12SB/1/index.html?m=8",
+		"unidad": "vehiculos",
+		"grupo": "centrales",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de T8 24 SB",
+		"link": "https://manuales.x-28.com/m/T824_12SB/1/index.html?m=9",
+		"unidad": "vehiculos",
+		"grupo": "centrales",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de Z10 - Instalador",
+		"link": "https://manuales.x-28.com/m/Z10/3/instalador.html?m=9",
+		"unidad": "vehiculos",
+		"grupo": "centrales",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de Z10 - Usuario",
+		"link": "https://manuales.x-28.com/m/Z10/3/usuario.html?m=9",
+		"unidad": "vehiculos",
+		"grupo": "centrales",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de Z20 H",
+		"link": "https://manuales.x-28.com/m/Z20S_Z20H/1/index.html?m=8",
+		"unidad": "vehiculos",
+		"grupo": "centrales",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de Z20 RH",
+		"link": "https://manuales.x-28.com/m/Z20RS_Z20RH/1/index.html?m=8",
+		"unidad": "vehiculos",
+		"grupo": "centrales",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de Z20 RS",
+		"link": "https://manuales.x-28.com/m/Z20RS_Z20RH/1/index.html?m=9",
+		"unidad": "vehiculos",
+		"grupo": "centrales",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de Z20 S",
+		"link": "https://manuales.x-28.com/m/Z20S_Z20H/1/index.html?m=9",
+		"unidad": "vehiculos",
+		"grupo": "centrales",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de Z30 RH",
+		"link": "https://manuales.x-28.com/m/Z30RH/1/index.html?m=9",
+		"unidad": "vehiculos",
+		"grupo": "centrales",
+		"tipo": "manuales"
+	},
+	{
+		"nombre": "Manual de Z50",
+		"link": "pdf/veh/Manual_Z50.pdf",
+		"unidad": "vehiculos",
+		"grupo": "centrales",
+		"tipo": "manuales"
+	},
+    {
+		"nombre": "Info Auto y Moto",
+		"link": "https://manuales.x-28.com/m/info_auto/index.html",
+		"unidad": "vehiculos",
+		"grupo": "herramientas",
+		"tipo": "adicional"
+	},
+    {
+		"nombre": "Diagrama de conexión de MACP con masa en reposo",
+		"link": "pdf/veh/Diagrama_conexion_MACP_con_masa_en_reposo.pdf",
+		"unidad": "vehiculos",
+		"grupo": "herramientas",
+		"tipo": "adicional"
+	},
+    {
+		"nombre": "Diagrama de conexión de MACP para línea VW",
+		"link": "pdf/veh/Diagrama_conexion_MACP_linea_VW.pdf",
+		"unidad": "vehiculos",
+		"grupo": "herramientas",
+		"tipo": "adicional"
+	},
+    {
+		"nombre": "Diagrama de conexión de MACP por señal positiva",
+		"link": "pdf/veh/Diagrama_conexion_MACP_por_senal_positiva.pdf",
+		"unidad": "vehiculos",
+		"grupo": "herramientas",
+		"tipo": "adicional"
+	}
+]

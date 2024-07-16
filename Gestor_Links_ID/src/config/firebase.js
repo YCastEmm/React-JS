@@ -89,7 +89,8 @@ export async function getLinksFromDatabase(coleccion) {
             id: doc.id, // ID del documento.
             name: linkData.name, // Nombre del enlace.
             url: linkData.url, // URL del enlace.
-            description: linkData.description // Descripción del enlace.
+            description: linkData.description, // Descripción del enlace.
+            categoria: linkData.categoria
         });
     });
     

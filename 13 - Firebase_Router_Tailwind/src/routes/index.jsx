@@ -3,6 +3,7 @@ import LayoutRoot from "../layout/LayoutRoot";
 import Login from "../pages/Login";
 import Dashboard from "../pages/Dashboard";
 import LayoutPrivate from "../layout/LayoutPrivate";
+import Register from '../pages/Register'
 
 
 
@@ -21,6 +22,12 @@ export const router = createBrowserRouter([
                 element: <Login></Login>,
             },
             {
+                // Especifico que esta ruta es el índice de la ruta raíz
+                path: "/register",
+                // Establezco el componente Home como el elemento de esta ruta
+                element: <Register></Register>,
+            },
+                        {
                 // Defino la ruta "/dashboard"
                 path: "/dashboard",
                 // Establezco el componente LayoutPrivate como el contenedor principal para esta ruta
